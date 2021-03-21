@@ -24,3 +24,4 @@ GNN Hybrid, composed of layers from different GNN types:
 
 `python gnn.py --use_hybrid`
 
+We additionally used [this GAT implmentation](https://github.com/dmlc/dgl/tree/master/examples/pytorch/ogb/ogbn-arxiv) provided by the DGL team which also makes an appearance on the OGB leaderboard for the arXiv dataset. Detailed instructions for setting up and running GAT can be found there.
