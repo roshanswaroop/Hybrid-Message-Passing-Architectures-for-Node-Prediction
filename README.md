@@ -1,7 +1,4 @@
-# Hybrid-Message-Passing-Architectures-for-Node-Prediction
-Hybrid Message-Passing Architectures for Node Prediction: uses OGB to explore techniques
-
-# Exploring Hybrid Models with Feature-wise Linear Modulation
+# Hybrid Message Passing Architectures for Node Prediction
 
 This project uses data from [Stanford OGB](https://ogb.stanford.edu/). Specifically, the [arxiv dataset](https://ogb.stanford.edu/docs/nodeprop/#ogbn-arxiv) for node property prediction.
 
@@ -13,17 +10,11 @@ The code in `gnn.py` is based on [OGB code](https://github.com/snap-stanford/ogb
 4. Run the code! To start, run `python gnn.py` to run the OGB baseline GCN, implemented by Stanford OGB project owners (not by the authors of this project).
 
 The authors of this project implemented the following classes in `gnn.py`:
-- GAT
 - GNNHybrid
 - GNNFiLM
 - GNNFiLMConv
-- GATConv
 
 In order to run one of the models implemented by the authors, run the following commands:
-
-Baseline GAT:
-
-`python gnn.py --use_gat`
 
 GNN FiLM (based on [this paper](https://arxiv.org/pdf/1906.12192.pdf) from ICML 2020):
 
